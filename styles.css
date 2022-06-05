@@ -1,0 +1,134 @@
+body {
+    background: rgb(240,241,255);
+    background: linear-gradient(180deg, rgba(240,241,255,1) 91%, rgba(231,233,255,1) 100%);
+
+}
+
+header {
+    background: rgb(27, 81, 242);
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+
+.cabecalho {
+    position: relative;
+    max-width: 940px;
+    margin: auto;
+}
+
+#logo {
+    width: 130px;
+}
+
+.logo-box {
+    width: 150px;
+    text-align: center;
+}
+
+.logo-box h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-box h1 span {
+    color: #fff;
+}
+
+.jogos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.jogos li {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: top;
+}
+
+.jogos li h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #061726;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+}
+
+.jogoimg {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px rgb(0 0 0/0.4);
+    margin-bottom: 10px;
+}
+
+.jogos li p {
+    color: #061726;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    margin-bottom: 30px;
+
+}
+
+.jogos li p span {
+    font-weight: bold;
+}
+
+.italic-game {
+    font-style: italic;
+}
+
+.cupom {
+    font-style: italic;
+    color: #1B51F2;
+}
+
+footer {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+footer h2 a {
+    color: #1B51F2;
+    text-decoration: none;
+}
